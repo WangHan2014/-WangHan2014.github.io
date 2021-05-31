@@ -1,0 +1,89 @@
+body {
+	background-image: url('https://source.unsplash.com/a0TJ3hy-UD8');
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: 1600px auto;
+	background-position: bottom;
+	height: 800px;
+}
+
+.out_frame {
+	width: 700px;
+	height: 100px;
+	border: 0px solid white;
+	margin: 100px auto;
+	transition: all 0.35s ease;
+	overflow: hidden;
+	position: relative;
+}
+
+.out_frame h1 {
+	font-size: 70px;
+	position: relative;
+	top: -48px;
+	font-weight: bolder;
+	color: #c30000;
+	animation: fade 2s 0s infinite;
+	}
+	
+.out_frame h2 {
+	font-size: 50px;
+	position: relative;
+	top: -167px;
+	left: 50px;
+	color: white;
+}
+
+.out_frame h3 {
+	font-size: 70px;
+	position: relative;
+	top: -320px;
+	left: 650px;
+	font-weight: bolder;
+	color: #c30000;
+	animation: fade 2s 0s infinite;
+}
+
+.out_frame p {
+	font-size: 50px;
+	position: relative;
+	top: -480px;
+	left: 300px;
+	line-height: 100px;
+	color: white;
+	font-weight: 600;
+	animation: font_move 10s 0s infinite;
+}
+
+@keyframes font_move{
+	20%{
+		transform: translateY(0);
+	}
+	25%{
+		transform: translateY(-100px);
+	}
+	45%{
+		transform: translateY(-100px);
+	}
+	50%{
+		transform: translateY(-200px);
+	}
+	70%{
+		transform: translateY(-200px);
+	}
+	75%{
+		transform: translateY(-300px);
+	}
+	95%{
+		transform: translateY(-300px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+@keyframes fade{
+	50%{
+		opacity: 0;
+	}
+}
