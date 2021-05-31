@@ -1,0 +1,37 @@
+.out_frame_2 {
+	width: 90%;
+	height: 20rem;
+	border: 0px solid black;
+	margin: 1.25rem auto;
+	text-align: center;
+}
+
+.out_frame_2 div {
+	width: 120px;
+	background-color: #0f3761;
+	height: 80px;
+	display: inline-block;
+	margin: 60px 16px;
+	position: relative;
+	border: ;
+	border-radius: 10%;
+	transition: all 0.2s ease;
+	box-shadow: 0px 4px 10px 2px #125393;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.out_frame_2 div:hover {
+	background-color: #5cdfff;
+	box-shadow: 0px 0px 30px 12px #80f3ff;
+}
+
+.link_1 {
+	background-image: url(../img/box-line.png);
+}
+
+.link_1:hover {
+	background-image: url(../img/box-line2.png);
+	background
+}
